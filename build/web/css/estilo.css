@@ -1,0 +1,300 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway+Dots);
+@import url(http://fonts.googleapis.com/css?family=Advent+Pro:400,200,700);
+@import url(http://weloveiconfonts.com/api/?family=entypo);
+/* entypo */
+[class*="entypo-"]:before {
+    font-family: 'entypo', sans-serif;
+}
+
+.cab-pag{
+    border-top: 2px solid #990000;
+}
+.menu>ul{
+    padding-top: 0px;
+}
+.navbar-default .navbar-nav > li > a{
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.nav >.active{
+    border-bottom: 2px solid #d9534f;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.navbar-default .navbar-nav > .active > a{
+    margin-top: -1px;
+    font-weight: bold;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#cccccc+0,d30000+0,ffffff+100 */
+    background: #cccccc; /* Old browsers */
+    background: -moz-linear-gradient(top,  #cccccc 0%,#d9534f 0%, #ffffff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #cccccc 0%,#d9534f 0%,#ffffff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #cccccc 0%,#d9534f 0%,#ffffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#cccccc', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
+    padding-top: 16px;
+}
+.nav>li:hover{
+    border-bottom: 2px solid #d9534f;
+    font-weight: bold;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.ranking{
+    margin:  0 auto;
+    max-width: 640px;
+    padding: 50px auto;
+}
+.ranking>.panel{
+    margin-top: 10px;
+}
+.ranking .panel-heading>h4{
+    padding: 0px;
+    margin: 0px;
+}
+.ranking .panel-body .progress{
+    margin-top: 10px;
+}
+
+.ranking>.panel-default>.panel-heading{
+    background: #d24b4b;
+
+}
+
+
+.ranking>.panel-default>.panel-body{
+    border-bottom: 1px solid #d24b4b;
+}
+.estadisticas h4{
+    margin-bottom: 20px;
+}
+
+.resumen{
+    margin-top: 50px;
+}
+.empiesa{
+    font-size: 50px;
+    margin-top: 20px;   
+    margin-bottom: 20px;
+
+}
+.continuar{
+    font-size: 50px;
+    margin-top: -20px;   
+    margin-bottom: 30px;
+    text-align: center;
+}
+.empiesa a,.continuar a{
+    text-decoration: none;
+}
+.resumen h2{
+    font-weight: bold;
+}
+.resumen p {
+    font-size: 18px;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+
+/*BOTON*/
+.button{
+    text-decoration:none;
+    text-align:center; 
+    padding:12px 46px; 
+    border:solid 1px #4f0303; 
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px; 
+    border-radius: 10px; 
+    font:24px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#ffffff; 
+    background-color:#c74444; 
+    background-image: -moz-linear-gradient(top, #c74444 0%, #9e0000 100%); 
+    background-image: -webkit-linear-gradient(top, #c74444 0%, #9e0000 100%); 
+    background-image: -o-linear-gradient(top, #c74444 0%, #9e0000 100%); 
+    background-image: -ms-linear-gradient(top, #c74444 0% ,#9e0000 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e0000', endColorstr='#9e0000',GradientType=0 ); 
+    background-image: linear-gradient(top, #c74444 0% ,#9e0000 100%);   
+    -webkit-box-shadow:0px 0px 5px #7a7171, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 5px #7a7171,  inset 0px 0px 1px #ffffff;  
+    box-shadow:0px 0px 5px #7a7171, inset 0px 0px 1px #ffffff;  
+
+    text-shadow: 0px 0px 10px #bababa; 
+    filter: dropshadow(color=#bababa, offx=0, offy=0); }.button:hover{
+    padding:12px 46px; 
+    border:solid 1px #4f0303; 
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px; 
+    border-radius: 10px; 
+    font:24px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#ffffff; 
+    background-color:#d97373; 
+    background-image: -moz-linear-gradient(top, #d97373 0%, #a30000 100%); 
+    background-image: -webkit-linear-gradient(top, #d97373 0%, #a30000 100%); 
+    background-image: -o-linear-gradient(top, #d97373 0%, #a30000 100%); 
+    background-image: -ms-linear-gradient(top, #d97373 0% ,#a30000 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a30000', endColorstr='#a30000',GradientType=0 ); 
+    background-image: linear-gradient(top, #d97373 0% ,#a30000 100%);   
+    -webkit-box-shadow:0px 0px 5px #7a7171, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 5px #7a7171,  inset 0px 0px 1px #ffffff;  
+    box-shadow:0px 0px 5px #7a7171, inset 0px 0px 1px #ffffff;  
+
+    text-shadow: 0px 0px 10px #bababa; 
+    filter: dropshadow(color=#bababa, offx=0, offy=0);}.button:active{
+    padding:12px 46px; 
+    border:solid 1px #4f0303; 
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px; 
+    border-radius: 10px; 
+    font:24px Arial, Helvetica, sans-serif; 
+    font-weight:bold; 
+    color:#ffffff; 
+    background-color:#c74444; 
+    background-image: -moz-linear-gradient(top, #c74444 0%, #9e0000 100%); 
+    background-image: -webkit-linear-gradient(top, #c74444 0%, #9e0000 100%); 
+    background-image: -o-linear-gradient(top, #c74444 0%, #9e0000 100%); 
+    background-image: -ms-linear-gradient(top, #c74444 0% ,#9e0000 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#9e0000', endColorstr='#9e0000',GradientType=0 ); 
+    background-image: linear-gradient(top, #c74444 0% ,#9e0000 100%);   
+    -webkit-box-shadow:0px 0px 5px #7a7171, inset 0px 0px 1px #ffffff; 
+    -moz-box-shadow: 0px 0px 5px #7a7171,  inset 0px 0px 1px #ffffff;  
+    box-shadow:0px 0px 5px #7a7171, inset 0px 0px 1px #ffffff;  
+    opacity:0.8; 
+    -ms-filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=80); 
+    filter: alpha(opacity=80); 
+    text-shadow: 0px 0px 10px #bababa; 
+    filter: dropshadow(color=#bababa, offx=0, offy=0);
+}
+
+.logo{
+    margin-left: 50px;
+    margin-top: -10px;
+}
+.contenido{
+    margin-top: 30px;
+}
+
+.pie-pag{
+    height: 40px;
+    background: #333333;
+    color: #ffffff;
+    padding: 10px;
+    top:110%;
+}
+
+.custom-combobox {
+    position: relative;
+    display: inline-block;
+}
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -1px;
+    padding: 0;
+}
+.custom-combobox-input {
+    margin: 0;
+    padding: 5px 5px;
+}
+
+.ec-stars-wrapper {
+    /* Espacio entre los inline-block (los hijos, los `a`) 
+       http://ksesocss.blogspot.com/2012/03/display-inline-block-y-sus-empeno-en.html */
+    font-size: 0;
+    /* Podríamos quitarlo, 
+            pero de esta manera (siempre que no le demos padding), 
+            sólo aplicará la regla .ec-stars-wrapper:hover a cuando
+            también se esté haciendo hover a alguna estrella */
+    display: inline-block;
+}
+.ec-stars-wrapper a {
+    text-decoration: none;
+    display: inline-block;
+    /* Volver a dar tamaño al texto */
+    font-size: 32px;
+    font-size: 2rem;
+
+    color: #888;
+}
+
+.ec-stars-wrapper:hover a {
+    color: rgb(39, 130, 228);
+}
+
+.ec-stars-wrapper .estrella-active{
+    color: rgb(39, 130, 228);
+}
+/*
+ * El selector de hijo, es necesario para aumentar la especifidad
+ */
+.ec-stars-wrapper > a:hover ~ a {
+    color: #888;
+}
+
+.inactivo{
+    display: none;
+}
+
+
+/* ICONOS*/
+section #services {
+    text-align: center;
+    transform: translatez(0);
+}
+section #services h2 {
+    color: #fff;
+    font-size: 1.2em;
+    font-family: 'Raleway Dots', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+section #services li {
+    width: 80px;
+    height: 80px;
+    display: inline-block;
+    margin: 20px;
+    list-style: none;
+}
+section #services li div {
+    width: 80px;
+    height: 80px;
+    color: #b72626  ;
+    font-size: 0.9em;
+    text-align: center;
+    line-height: 80px;
+    background-color: #fff;
+    transition: all 0.5s ease;
+    padding-bottom: 40px;
+}
+section #services li div:hover {
+    background-color: #888;
+    transform: rotate(360deg);
+    border-radius: 100px;
+}
+section #services li span {
+    width: 100px;
+    height: 20px;
+    display: block;
+    padding: 15px 0px;
+    color: #7a7171;
+    font-family: 'Advent Pro', sans-serif;
+    text-transform: uppercase;
+    font-size: 0.4em;
+    text-align: center;
+}
+.cand{
+    margin-top: 0px;
+}
+.propuesta{
+    max-width: 780px;
+}
+
+.estadisticas a{
+   cursor: pointer;
+}
+
+.modal th span{
+    margin-right: 10px;  
+}
